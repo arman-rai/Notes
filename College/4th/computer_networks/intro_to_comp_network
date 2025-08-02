@@ -1,0 +1,45 @@
+# So what are computer networks?
+	interconnection of various computers to share software, hardware, resources and data through communication medium between them
+	They communicate using some protocols ex: https, smb etc
+
+## Some business applications of computer networks in business are:
+	1. Resouece sharing
+	2. Server-Client databases
+	3. Communication etc.
+
+
+## Topologies of network
+	1. Bus:
+		Single direction communication flow, both  ends have a line terminator which removes the data from the line, uses CSMA/CD? tech and recognized one as a bus master.
+	2. Star:
+		Single point of failure, may have a L1(hub, repeater) or L2(Switch, Bridge) or L3(Router, Gateway) device as the central comms device
+	3. Ring:
+		Multiple points of failure, has two adjacent nodes which help transfer the data to the required node
+	4. Mesh: 
+		 Maybe full or partial mesh, full mesh has n(n-1)/2 connections and partial one has only some connected to n(n-1)/2 connections
+	5. Tree:
+		Has many layers such as core, distro, access which give out the hierarchy of the nodes, Single point of failure but more controlled  than star
+	6. Hybrid:
+		Combines all the advantages & disadvantages of all the above and more
+	7. Cellular: 
+		Wireless tech, has a central hub, don't know much about this
+
+
+## Network types on basis of area
+	1. PAN or HAN (personal, home)
+	2. LAN (local)
+	3. CAN (campus)
+	4. MAN (Metropolitian)
+	5. WAN (wide)
+	6. SAN (storge)
+	7. EPN (enterprise)
+	8. VPN (virtual)
+
+# Architectures of Networking
+	1. Client-Server
+	2. Peer-to-peer
+
+### open standards and protocols 
+
+# Models of networking
+	## reference models

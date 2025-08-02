@@ -1,0 +1,29 @@
+# Theory of computation 
+
+## includes the autmomated systems that perform mathematical computations
+
+## Automata theory
+	It can be used for verifying systems of all types that have finite number of distinct states, such as comms protocols, exchange algorithms
+	It's a useful concept of software for natural language
+
+## Definitions
+	## Alphabets(sigma)
+		Mathematically, It is a finite, non-empty set if symbols thath maket up the language og concern
+	## String(word)
+		A finite sequence of symbols taken from an alphabet
+	## length(|w|)
+		length of string
+	## Empty string(epsilon)
+		String consisting of zero occourences of symbils from an alphabe
+	## Power of alphabet
+		example:	
+		sigma = {0.1}
+		sigma^0 = {phi} // phi = empty_string
+		sigma^1 = {0, 1}
+		sigma^2 = {00, 01, 10, 11}
+		i.e. sigma^k = {w| | w| k }
+
+	# Kleene Closure(sigma^*)
+		Set  of all the strings over an alphabet
+		sigma^* = sigma^0 union sigma^1 union sigma^n
+	
