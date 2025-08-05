@@ -11,7 +11,7 @@ then got in as apar and found the user flag
 then enumerated further, there was `/var/www/files/images` and downloaded it to local machine using [[python]]
 
 then used few tools, steghide got the job done
-used zip2john to crack the zip file and got in
+used [[zip2john]] to crack the zip file and got in
 found password encoded as b64 on the unzipped file 
 
 then tried to su to anurodh from apaar, succeded
