@@ -12,5 +12,7 @@ then enumerated further, there was `/var/www/files/images` and downloaded it to 
 
 then used few tools, steghide got the job done
 used zip2john to crack the zip file and got in
-found password encoded as b64
+found password encoded as b64 on the unzipped file 
 
+then tried to su to anurodh from apaar, succeded
+then found a docker id on it and then used 
