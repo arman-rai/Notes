@@ -15,4 +15,7 @@ used zip2john to crack the zip file and got in
 found password encoded as b64 on the unzipped file 
 
 then tried to su to anurodh from apaar, succeded
-then found a docker id on it and then used 
+then found a docker id on it and then used it to get the fuck outa the shell
+`docker run -v /:/mnt --rm -it alpine chroot /mnt sh`
+
+done~
