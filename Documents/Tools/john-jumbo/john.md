@@ -2,7 +2,13 @@
 john --show <hashfile>
 ```
 
-## Options
+### Crack `/etc/shadow`:
+
+```bash
+unshadow /etc/passwd /etc/shadow > shadow.hash
+john shadow.hash
+```
+
 | Option              | Description                 |
 | ------------------- | --------------------------- |
 | `--format=<type>`   | Manually set hash type      |
