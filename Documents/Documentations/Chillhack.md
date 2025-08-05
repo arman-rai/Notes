@@ -8,4 +8,4 @@ then found out that I can masquerade as apaar so I asked for a bash shell as apa
 `sudo -u apar /home/apaar/.helpline.sh`
 
 then got in as apar and found the user flag
-then enumerated further, there was a 
+then enumerated further, there was an images folder on the 
