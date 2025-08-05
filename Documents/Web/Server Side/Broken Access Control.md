@@ -23,5 +23,6 @@
 - **Impact:** Unauthorized access to data or functions. Non-admins may gain full admin control or view sensitive data. Often leads to data leaks or account takeover.
     
 - **Mitigation:** Enforce server-side checks for every action. Never rely on client-side role parameters. Validate session user identity on each request to ensure only permitted operations are allowed.
-    
 
+
+# [[IDOR]]
