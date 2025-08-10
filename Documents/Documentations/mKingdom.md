@@ -6,4 +6,5 @@ Also on linpeas, I found a password which was b64 enc and got in as mario:ikaTeN
 Also found toad:toadisthebest. 
 mario had some privileges and it was /usr/bin/id, quite unconventional.
 
-So, I found someth
+So, I found something called https://github.com/DominicBreuker/pspy
+and found a 
