@@ -14,4 +14,4 @@ and found a routine daemon that
 then I tried appending the counter.sh but no privileges.
 Then I just DNS poisoned it, hehehe. Made a server on my device and then made the counter.sh a rev shell to my local device. 
 
-Surprisingly, got in as 
+Surprisingly, got in as root, yay~
