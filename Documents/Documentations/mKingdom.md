@@ -12,4 +12,6 @@ and found a routine daemon that
 2025/08/09 22:41:01 CMD: UID=0     PID=4902   | /bin/sh -c curl mkingdom.thm:85/app/castle/application/counter.sh | bash >> /var/log/up.log  
 ```
 then I tried appending the counter.sh but no privileges.
-Then I just 
+Then I just DNS poisoned it, hehehe. Made a server on my device and then made the counter.sh a rev shell to my local device. 
+
+Surprisingly, got in as 
