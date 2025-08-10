@@ -1,2 +1,2 @@
 This was a good one, took around 2 hours to complete.
-Got a port: 85 and got in as admin:password. Then appended some file extensions, git a reverse shell using a php
+Got a port: 85 and got in as admin:password. Then appended some file extensions, got a reverse shell using a php exploit. Then got in as www-data and found did linpeas
