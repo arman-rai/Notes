@@ -1,3 +1,4 @@
+
 | Flag             | What It Does                       |
 | ---------------- | ---------------------------------- |
 | `-i`             | Case-insensitive search            |
