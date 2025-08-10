@@ -12,3 +12,17 @@
 | `-l` / `-L`      | List files with/without matches    |
 | `-E`, `-e`       | Extended regex / multiple patterns |
 | `-x`             | Exact line matching                |
+
+Some regex:
+
+|Token|Meaning|
+|---|---|
+|`.`|Matches any character (except newline)|
+|`\w`, `\d`, `\s`|Word, digit, whitespace respectively|
+|`[^...]`|Negated character class|
+|`^`, `$`|Start and end of string anchors|
+|`*`, `+`, `?`, `{n}`, etc.|Quantifiers|
+|`(...)`|Capture group|
+|`(?:...)`|Non-capturing group|
+|`(?=...)`|Positive lookahead|
+|`(?!...)`|Negative lookahead|
