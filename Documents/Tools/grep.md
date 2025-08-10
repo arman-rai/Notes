@@ -1,3 +1,4 @@
+`grep -R -i "flag{[^}]\+}" .`
 
 | Flag             | What It Does                       |
 | ---------------- | ---------------------------------- |
@@ -12,6 +13,7 @@
 | `-l` / `-L`      | List files with/without matches    |
 | `-E`, `-e`       | Extended regex / multiple patterns |
 | `-x`             | Exact line matching                |
+| `-R`             |                                    |
 
 Some regex:
 
