@@ -4,4 +4,6 @@ Got a port: 85 and got in as admin:password. Then appended some file extensions,
 Found an unauthenticated db, got a password but it was just admin:password, duh. 
 Also on linpeas, I found a password which was b64 enc and got in as mario:ikaTeNTANtES.
 Also found toad:toadisthebest. 
-mario had 
+mario had some privileges and it was /usr/bin/id, quite unconventional.
+
+So, I found someth
