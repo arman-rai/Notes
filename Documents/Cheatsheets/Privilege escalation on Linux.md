@@ -55,18 +55,6 @@ find / -writable -type d 2>/dev/null
 ## 2️⃣ Automated Enumeration
 
 Use to speed up, **never trust blindly** — validate by hand:
-
-- 🔹 **LinPEAS** – best all-rounder
-    
-- 🔹 **LinEnum** – structured
-    
-- 🔹 **LES** – kernel exploits
-    
-- 🔹 **Linux Smart Enumeration**
-    
-- 🔹 **linuxprivchecker**
-    
-
 ```bash
 wget https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/raw/master/linPEAS/linpeas.sh
 chmod +x linpeas.sh && ./linpeas.sh
