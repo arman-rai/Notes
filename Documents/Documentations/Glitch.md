@@ -8,4 +8,6 @@ Parameter fuzzed most endpoints and got something on the /api/items?fuzz=FUZZ on
 Then used node.js rev shell commands from revshells but no luck. Then tried it using nc mkfifo and it actually worked?
 
 Then got in as `user` and we could not run linpeas.sh. 
-Manually enumerated the machine, got a flag, also got a sus .firefox folder it had sqlite db and some creds, cracked it using firefox_decrupt.py
+Manually enumerated the machine, got a flag, also got a sus .firefox folder it had sqlite db and some creds, cracked it using https://github.com/unode/firefox_decrypt. 
+
+Then got in as `v0id` and switched to root using `doas`. 
