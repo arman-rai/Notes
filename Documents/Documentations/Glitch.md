@@ -5,4 +5,6 @@ Then got some directories and also one flag, which turned out to be a cookie for
 Then on the hint, there was written that we may use other HTTP verbs, most probable ones were POST and OPTIONS. 
 Parameter fuzzed most endpoints and got something on the /api/items?fuzz=FUZZ one.
 
-Then used node.js rev shell commands from revshells but no luck. Then tried 
+Then used node.js rev shell commands from revshells but no luck. Then tried it using nc mkfifo and it actually worked?
+
+Then got in as `user` and we could not run linpeas.sh, 
