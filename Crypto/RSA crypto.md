@@ -9,6 +9,7 @@ RSA is based on:
 
 - **RSA Encryption**: C = M^e mod N (where C=ciphertext, M=plaintext, e=public exponent, N=modulus)
 - **RSA Decryption**: M = C^d mod N (where d=private exponent)
+
 - **Homomorphic Property**: RSA has a multiplicative homomorphic property:
     - E(M1 × M2) = E(M1) × E(M2) mod N
     - D(C1 × C2) = D(C1) × D(C2) mod N
