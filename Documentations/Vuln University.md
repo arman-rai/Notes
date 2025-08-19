@@ -38,9 +38,11 @@ Service detection performed. Please report any incorrect results at https://nmap
 
 and ffuf'd then found a folder /internal
 and recursively did that and found `http://vul.thm:3333/internal/index.php`
+and tried a simple revshell script from pentest monke and it works
+but changed the file extension to ``
 also found `http://vul.thm:3333/internal/uploads`
 
-tried a simple revshell script from pentest monke and it works~
+
 got in as www-data
 and found some suid files on enumeration and used the systemctl one as it said so
 
