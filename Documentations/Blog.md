@@ -257,3 +257,14 @@ and ran `/usr/sbin/checker`
 got root
 lol
 ez
+
+```
+find / -type f -name "root.txt" 2>/dev/null
+find / -type f -name "root.txt" 2>/dev/null
+/root/root.txt
+find / -type f -name "user.txt" 2>/dev/null
+find / -type f -name "user.txt" 2>/dev/null
+/home/bjoel/user.txt
+/media/usb/user.txt
+```
+
