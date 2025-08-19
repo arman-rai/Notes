@@ -32,7 +32,7 @@ ss -tulpan             # Open ports/services
 🔍 **Permissions & Special Bits**
 
 ```bash
-find / -perm -4000 -type f -ls 2>/dev/null  # SUID
+ # SUID
 getcap -r / 2>/dev/null                     # Capabilities
 ```
 
