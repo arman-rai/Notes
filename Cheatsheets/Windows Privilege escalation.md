@@ -142,11 +142,8 @@ findstr /si password *.txt *.ini *.xml *.config
 Common places:
 
 - Unattend.xml (`C:\Windows\Panther\`)
-    
 - Group Policy Preference files (`c:\ProgramData\Microsoft\Group Policy\History\`)
-    
 - Mimikatz dump creds from LSASS:
-    
 
 ```powershell
 mimikatz.exe
