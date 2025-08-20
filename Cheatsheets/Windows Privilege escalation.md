@@ -175,21 +175,11 @@ sc stop WinDefend
 
 ## **Key Tools**
 
-- `winPEAS.exe` → full enumeration
-    
+- `winPEAS.exe` → full enumerat
 - `Seatbelt.exe` → system survey
-    
 - `Accesschk.exe` → permissions
-    
-- `Mimikatz` → creds dump
-    
+- `Mimikatz` → creds dump    
 - `PrintSpoofer` / `JuicyPotato` / `RoguePotato` → token abuse
-    
 - `Sherlock.ps1` / `Watson.exe` → vuln checks
-    
 
 ---
-
-That’s the go-to cheat menu. In practice, you just drop `winPEAS.exe`, run it, and then pivot to the quickest available vuln (service misconfig, token privs, or AlwaysInstallElevated).
-
-Do you want me to condense this into a **step-by-step escalation flow** (like a decision tree: check this → if vuln → exploit, else next)? That’s usually the fastest way to run Windows privesc live.
