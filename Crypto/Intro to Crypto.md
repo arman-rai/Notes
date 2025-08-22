@@ -26,5 +26,5 @@ That's how the word "hello" looks as MD5 hash : **5d41402abc4b2a76b9719d91101
 
 The most popular use of hashes is for file identification and storing sensitive data, like passwords. When you create an account on a website your password is converted to hash and this hash is stored in the server's database. So when you login the password that you type in will be converted to a hash, the server will take it and compare it with the hash in it's database, if it's the same that means your password is correct and the server will let you in.
 
-																					MD5 hashes are also used to ensure the data integrity of files. Because the MD5 hashing algorithm always produces the same output for the same given input, it can be used to compare a hash of the source file with a newly created hash of the destination file to check that it is intact and unmodified.
+MD5 hashes are also used to ensure the data integrity of files. Because the MD5 hashing algorithm always produces the same output for the same given input, it can be used to compare a hash of the source file with a newly created hash of the destination file to check that it is intact and unmodified.
 
