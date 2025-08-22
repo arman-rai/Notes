@@ -1,7 +1,3 @@
-##  Linux Privilege Escalation Cheat Sheet
-
-### 🗝️ Introduction
-
 ## 1️⃣ System Enumeration
 
 🔍 **Baseline Checks**
