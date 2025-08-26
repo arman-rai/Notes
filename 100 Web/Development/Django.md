@@ -26,3 +26,4 @@ just create a db using mysql on the device and then create a new db in my case d
 which are namura:Namur@!23
 and then I had to create a superuser again for the new db as my admin page was fucked up so created a new admin/ creds and logged in and as of roght now I'm using mysql as the db yay~
 
+s
