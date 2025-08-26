@@ -1,7 +1,7 @@
 # 📖 Dual-Phone Scrcpy Setup Guide (Xiaomi + Samsung)
 
 ## 1. Scan the LAN for phones
-I connected the phones via cables initially and also turned on USB 
+I connected the phones via cables initially and also turned on USB debugging and then:
 
 ```bash
 nmap 192.168.0.1/24
