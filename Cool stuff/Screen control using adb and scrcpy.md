@@ -100,4 +100,4 @@ adb disconnect
 ---
 
 And now I have a two screen setup yay~
-and phone opens up via face ID so, 
+and phone opens up via face ID so, fully no-touch huhu~
