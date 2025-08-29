@@ -39,3 +39,6 @@ create a menu model on models.py app level and then import and register model on
 migrate the db and url map on app level and project level
 
 create super user for the project and then run the server and login as admin and add some values on the model and 
+ on the models we can dask the menu class to call self.name
+ like":
+ 
