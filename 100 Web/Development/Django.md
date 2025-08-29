@@ -50,4 +50,5 @@ create a menu view app level and render the data as a dict from the Menu.objects
 
 lol project ta banaye 2 hrs jati lagayera template pailai thiyo 
 tara basics nai ramro xaina raixa so feri python sikna aateko 
-using http://scrimba.com/
+using http://scrimba.com/ lol hawa raixa lastai basic
+
