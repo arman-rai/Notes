@@ -49,4 +49,5 @@ create super user for the project and then run the server and login as admin and
 create a menu view app level and render the data as a dict from the Menu.objects.all() method
 
 lol project ta banaye 2 hrs jati lagayera template pailai thiyo 
-tara basics
+tara basics nai ramro xaina raixa so feri python sikna aateko 
+using http://scrimba.com/
