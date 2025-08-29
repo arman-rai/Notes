@@ -29,6 +29,7 @@ ss -tulpan             # Open ports/services
 
 ```bash
 find / -perm -4000 -type f -ls 2>/dev/null  # SUID
+find / -user root -perm -4000 -exec ls -ldb {} \; # SUID systemwide alt
 getcap -r / 2>/dev/null                     # Capabilities
 ```
 
