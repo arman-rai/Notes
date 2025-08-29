@@ -31,7 +31,9 @@ In Django templates, {% ... %} is used for template tags, and {{ ... }} is used 
 
 
 Mini project : lemon juice 
+restaurant folder is app level and  lillemon is project level folder
+
 so venv activate first then 
 quick fix interpreter issue
 create a menu model on models.py app level and then import and register model on admin.py app level
-migrate the db and url map on app level and projev 
+migrate the db and url map on app level and project level
