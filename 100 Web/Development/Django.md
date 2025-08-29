@@ -29,3 +29,7 @@ and then I had to create a superuser again for the new db as my admin page was f
 Now for the templates
 In Django templates, {% ... %} is used for template tags, and {{ ... }} is used for template variables.
 
+
+Mini project : lemon juice 
+so venv activate first then 
+quick fix interpreter issue
