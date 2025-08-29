@@ -46,4 +46,4 @@ create super user for the project and then run the server and login as admin and
 	 return self.name
 ```
 
-create a menu view app level and render the data a s
+create a menu view app level and render the data as a dict from the Menu.objects.all() method
