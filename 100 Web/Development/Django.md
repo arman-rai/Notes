@@ -33,3 +33,5 @@ In Django templates, {% ... %} is used for template tags, and {{ ... }} is used 
 Mini project : lemon juice 
 so venv activate first then 
 quick fix interpreter issue
+create a menu model on models.py app level and then import and register model on admin.py app level
+migrate the db and url
