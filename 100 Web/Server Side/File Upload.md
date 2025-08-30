@@ -5,25 +5,20 @@
 - **Example attacks:**
     
     - **Web shell upload:** Upload `shell.php` containing code like `<?php system($_GET['cmd']); ?>` and then access it to execute commands. Similarly, upload `.jsp` or `.asp` shells if the server runs those platforms.
-        
     - **Bypass filters:** If extensions are checked, use tricks like `shell.php.jpg` or `shell.php%00.png` to bypass a naive `.jpg` filter. If MIME is checked, override it to an innocuous type (e.g. send a PHP file with `Content-Type: image/jpeg`).
-        
     - **DLL/script injection:** Uploading scripts that exploit the processing library (ImageTragick, etc.).
-        
     - **Denial-of-Service:** Upload huge files or zip bombs to exhaust disk space.
         
 - **Payloads:**
     
     - PHP shell file (`shell.php`) with typical one-liner webshell code.
-        
     - Polyglot file: e.g. valid image header + hidden script.
-        
     - HTML file with `<script>` or SVG with JavaScript to attack browsers.
-        
+    - 
 - **Mitigation:** Restrict uploads to an allow-list of safe extensions; sanitize file names; store uploads outside the webroot or on a different domain; verify file contents (magic numbers). Set strict size limits.
     
 
-## ✅ **How to bypass**
+##  **How to bypass**
 
 ###  **1. Rename + Double Extension**
 
